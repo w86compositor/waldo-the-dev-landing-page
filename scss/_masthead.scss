@@ -2,16 +2,14 @@
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url('../img/blake-connally-unsplash.jpg');
+  background-image: url('../img/header-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
-
     .intro-lead-in {
       font-size: 22px;
       font-style: italic;
@@ -19,7 +17,6 @@ header.masthead {
       margin-bottom: 25px;
       @include serif-font;
     }
-
     .intro-heading {
       font-size: 50px;
       font-weight: 700;
@@ -29,13 +26,11 @@ header.masthead {
     }
   }
 }
-
 @media(min-width:768px) {
   header.masthead {
     .intro-text {
       padding-top: 300px;
       padding-bottom: 200px;
-
       .intro-lead-in {
         font-size: 40px;
         font-style: italic;
@@ -43,7 +38,6 @@ header.masthead {
         margin-bottom: 25px;
         @include serif-font;
       }
-
       .intro-heading {
         font-size: 75px;
         font-weight: 700;
